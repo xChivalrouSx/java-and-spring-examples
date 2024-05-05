@@ -10,10 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class SupplierExample {
 
-	@SuppressWarnings("java:S4276")
 	private static final Supplier<Person> createPerson = Person::new;
 
-	@SuppressWarnings("java:S4276")
 	private static final Supplier<Integer> generateNewAge = Person::getRandomAge;
 
 	public static void main(String[] args) {

@@ -10,13 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ConsumerExample {
 
-	@SuppressWarnings("java:S4276")
 	private static final Consumer<Person> sayHiFromPerson = Person::sayHi;
 
-	@SuppressWarnings("java:S4276")
 	private static final Consumer<Person> sayGoodByeFromPerson = Person::sayGoodBye;
 
-	@SuppressWarnings("java:S4276")
 	private static final BiConsumer<Person, String> sayHiToPerson = Person::sayHi;
 
 	public static void main(String[] args) {
