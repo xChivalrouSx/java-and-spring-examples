@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class FunctionalInterfaceExample {
 
+	@FunctionalInterface
 	private interface Computable {
 		int compute(int x, int y, int z);
 	}
