@@ -1,8 +1,9 @@
-#  java-examples
-For testing Java with examples
+#  java-and-spring-examples
+For testing and learning Java & spring with examples
 
 ---
 
-|  #  | Java Examples |
-| --- | ------------- | 
-| 001 | [Functional Interface](./functional-interface) |
+|  #  | Examples |
+| --- | -------- | 
+| 001 | [Java Examples](./java-examples) |
+| 002 | [Spring Boot Examples](./spring-boot-examples) |
