@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+			"name": "com.chivalrous.feign.echo-service-url",
+			"type": "java.lang.String",
+			"description": "The URL of the echo service"
+		},
+		{
+			"name": "com.chivalrous.feign.echo-client-name",
+			"type": "java.lang.String",
+			"description": "The name of the echo service client"
+		}
+	]
+}
