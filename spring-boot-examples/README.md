@@ -6,3 +6,4 @@ For testing and learning Spring Boot with examples
 |  #  | Spring Boot Examples |
 | --- | -------------------- | 
 | 001 | [Feign Client](./feign-client) |
+| 002 | [Eureka Server](./eureka-server) |
