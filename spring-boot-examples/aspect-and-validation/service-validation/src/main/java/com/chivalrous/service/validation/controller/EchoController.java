@@ -18,4 +18,9 @@ public class EchoController {
         return echoService.echo(request);
     }
 
+    @GetMapping("/v2/echo")
+    public String echoV2(@ModelAttribute EchoRequest request) {
+        return echoService.echoV2(request.getMessage(), request.getTimes());
+    }
+
 }
